@@ -30,7 +30,7 @@ header {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.7),
         rgba(0, 0, 0, 0.7)),
-        url(../images/pictures/bio.jpg);
+        url(../images/pictures/five.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -344,73 +344,203 @@ header {
 
 }
 
-.general-2 {
-    background-image: 
-        url('../images/pictures/one.jpg'),
-        url('../images/pictures/two.jpg'),
-        url('../images/pictures/three.jpg'),
-        url('../images/pictures/four.jpg');
-    background-position: 
-        left top, 
-        right top, 
-        left bottom, 
-        right bottom;
+.general-2{
+
+    background-image:  url(../images/pictures/five.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: 50% 50%;
+    background-size: cover;
     width: 50%;
-    height: 600px; /* Ajusta según tus necesidades */
+
 }
 
 .general-3{
 
-    background-image: 
-        url('../images/pictures/one.jpg'),
-        url('../images/pictures/two.jpg'),
-        url('../images/pictures/three.jpg'),
-        url('../images/pictures/four.jpg');
-    background-position: 
-        left top, 
-        right top, 
-        left bottom, 
-        right bottom;
+    background-image:  url(../images/pictures/six.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: 50% 50%;
+    background-size: cover;
     width: 50%;
-    height: 600px; /* Ajusta según tus necesidades */
 
 }
 
-.general-4 {
+.general-4{
 
-    background-image: 
-        url('../images/pictures/one.jpg'),
-        url('../images/pictures/two.jpg'),
-        url('../images/pictures/three.jpg');
-    background-position: 
-        left top, 
-        right top, 
-        center top; /* Cambiar la posición para centrar la tercera imagen */
+    background-image:  url(../images/pictures/seven.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: 50% 50%, 50% 50%, 100% 100%; /* Tercera imagen ocupa el 100% de ancho */
-    width: 50%; /* Asegura que el contenedor ocupe todo el ancho */
-    height: 600px; /* Ajusta según tus necesidades */
+    background-size: cover;
+    width: 50%;
 
 }
 
 .general-5{
 
-    background-image: 
-        url('../images/pictures/one.jpg'),
-        url('../images/pictures/two.jpg'),
-        url('../images/pictures/three.jpg');
-    background-position: 
-        left top, 
-        right top, 
-        center top; /* Cambiar la posición para centrar la tercera imagen */
+    background-image:  url(../images/pictures/eight.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: 50% 50%, 50% 50%, 100% 100%; /* Tercera imagen ocupa el 100% de ancho */
-    width: 50%; /* Asegura que el contenedor ocupe todo el ancho */
-    height: 600px; /* Ajusta según tus necesidades */
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-6{
+
+    background-image:  url(../images/pictures/nine.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-7{
+
+    background-image:  url(../images/pictures/teen.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-8{
+
+    background-image:  url(../images/pictures/twelve.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-9{
+
+    background-image:  url(../images/pictures/eleven.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-10{
+
+    background-image:  url(../images/pictures/thirteen.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-11{
+
+    background-image:  url(../images/pictures/fourteen.avif); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-12{
+
+    background-image:  url(../images/pictures/fiveteen.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-13{
+
+    background-image:  url(../images/pictures/sixteen.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-14{
+
+    background-image:  url(../images/pictures/seventeen.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-15{
+
+    background-image:  url(../images/pictures/eighteen.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-16{
+
+    background-image:  url(../images/pictures/nineteen.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-17{
+
+    background-image:  url(../images/pictures/tweny.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-18{
+
+    background-image:  url(../images/pictures/twenyone.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-19{
+
+    background-image:  url(../images/pictures/twenytwo.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-20{
+
+    background-image:  url(../images/pictures/twenythree.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-21{
+
+    background-image:  url(../images/pictures/eight.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
 
 }
 

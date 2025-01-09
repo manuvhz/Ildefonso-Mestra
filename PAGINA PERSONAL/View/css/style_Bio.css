@@ -61,10 +61,12 @@ header {
     width: 65px;
 }
 
-.logo {
-    color: #FFFDFC;
-    font-size: 25px;
-    font-weight: 800;
+.logo img{
+
+    width: 110px;
+    position: relative;
+    top: 10px;
+
 }
 
 .menu .navbar {
