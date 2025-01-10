@@ -646,18 +646,21 @@ p{
     .menu label{
 
         display: initial; /* Valor en el que se iniciara, las propiedades*/
+        z-index: 1;
 
     }
 
     .menu .navbar{
 
         position: absolute;
-        top: 100%;
+        top: 65%;
         left: 0;
         right: 0;
         background-color: #323337;
         display: none;
-
+        z-index: 1;
+        width: 90%;
+        margin-left: 25px;
     }
 
     .menu .nabvar ul li{
@@ -678,9 +681,16 @@ p{
 
     }
 
+    .header h1{
+
+        margin: 45px 0;
+
+    } 
+
     .header-content{
 
         padding: 100px 30px;
+        z-index: 0;
 
     }
 
@@ -757,12 +767,16 @@ p{
         width: 100%;
         padding: 30px;
         text-align: center;
+        order: -1;
 
     }
 
-    .general-2, .general-3{
+    .general-2, .general-3, .general-4, .general-5, .general-6, .general-7, .general-8, .general-9, .general-10, .general-11, .general-12, .general-13, .general-14, .general-15, .general-16, .general-17, .general-18, .general-19, .general-20{
 
-        display: none;
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        height: 500px;
 
     }
 

@@ -484,18 +484,21 @@ p{
     .menu label{
 
         display: initial; /* Valor en el que se iniciara, las propiedades*/
+        z-index: 1;
 
     }
 
     .menu .navbar{
 
         position: absolute;
-        top: 100%;
+        top: 65%;
         left: 0;
         right: 0;
         background-color: #323337;
         display: none;
-
+        z-index: 1;
+        width: 90%;
+        margin-left: 25px;
     }
 
     .menu .nabvar ul li{
@@ -514,11 +517,18 @@ p{
 
         min-height: 0vh; /* Se usa para definir la altura mínima de un elemento */
 
-    }
+    }    
+
+    .header h1{
+
+        margin: 45px 0;
+
+    } 
 
     .header-content{
 
         padding: 100px 30px;
+        z-index: 0;
 
     }
 
@@ -595,12 +605,16 @@ p{
         width: 100%;
         padding: 30px;
         text-align: center;
+        order: -1;
 
     }
 
-    .general-2, .general-3{
+    .general-2, .general-3, .general-4, .general-5, .general-6{
 
-        display: none;
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        height: 500px;
 
     }
 
@@ -635,3 +649,4 @@ p{
 
     }
 }
+
