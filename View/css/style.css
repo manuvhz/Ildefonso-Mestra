@@ -344,7 +344,7 @@ header{
 
 .general-2{
 
-    background-image:  url(../images/pictures/one.jpg); /* La url no se puede usar fuera de una accion */
+    background-image:  url(../images/pictures/one1.jpg); /* La url no se puede usar fuera de una accion */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
