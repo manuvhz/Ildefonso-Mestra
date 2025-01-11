@@ -485,7 +485,7 @@ p{
 
 /* Parte responsive de la pagina */
 
-@media(max-width:991px){
+@media(max-width:767px){
 
     .menu{
 
