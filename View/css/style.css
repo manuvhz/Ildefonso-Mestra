@@ -628,6 +628,16 @@ p{
     .general-2, .general-3, .general-4, .general-5, .general-6 {
         height: 400px;
     }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        margin-left: 5px;
+    }
 }
+
 
 
