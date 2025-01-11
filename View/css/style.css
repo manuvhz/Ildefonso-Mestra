@@ -615,12 +615,12 @@ p{
     }
 }
 
-@media(max-width:363px) {
-
+@media(max-width: 363px) {
     html, body {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        background-color: #fff; /* Fondo blanco para evitar franjas grises */
     }
 
     .container {
@@ -629,17 +629,17 @@ p{
     }
 
     .menu {
-        padding: 30px;
+        padding: 10px; /* Ajustado para pantallas más pequeñas */
     }
 
     .menu label {
-        display: initial; /* Valor en el que se iniciara, las propiedades*/
+        display: initial;
         z-index: 1;
     }
 
     .menu .navbar {
         position: absolute;
-        top: 80%;
+        top: 60%; /* Ajustado para que el menú no se sobreponga */
         left: 0;
         right: 0;
         background-color: #323337;
@@ -649,33 +649,37 @@ p{
         margin: 0 auto;
     }
 
-    .menu .nabvar ul li {
+    .menu .navbar ul li {
         width: 100%;
     }
 
-    #menu:checked ~ .navbar { /* Para poner el simbolo "~" es con alt + 126*/
+    #menu:checked ~ .navbar {
         display: initial;
-    } 
+    }
 
     .header {
-        min-height: 0vh; /* Se usa para definir la altura mínima de un elemento */
-    }    
+        min-height: 100vh; /* Asegura que el header tenga la altura correcta */
+        background-color: #fff; /* Fondo blanco para evitar franjas */
+        padding: 20px 0; /* Ajuste de padding para no generar espacio extra */
+    }
 
     .header h1 {
-        margin: 45px 0;
-    } 
+        margin: 20px 0;
+        font-size: 1.8rem; /* Ajuste de tamaño de fuente para pantallas pequeñas */
+    }
 
     .header-content {
-        padding: 0 10px;
+        padding: 50px 10px; /* Menos padding para evitar sobrecarga de espacio */
         z-index: 0;
     }
 
     .header-content p {
         padding: 0;
+        font-size: 1rem; /* Ajuste de tamaño de texto */
     }
 
     .coffee {
-        padding: 30px;
+        padding: 20px; /* Menos padding */
     }
 
     .coffee-content h2 {
@@ -687,16 +691,16 @@ p{
     }
 
     .coffee-group {
-        flex-direction: column; /* Determina la dirección en que se ordenarán los elementos en el espacio */
+        flex-direction: column;
         margin-bottom: 0;
     }
 
     .coffee-img {
-        display: none; /* No se mostrara el elemento a menos de que se realice una acción determinada */
+        display: none; /* No se mostrará, solo si es necesario */
     }
 
     .services {
-        padding: 30px;
+        padding: 20px; /* Ajustado para pantallas pequeñas */
     }
 
     .services-content p {
@@ -709,29 +713,22 @@ p{
     }
 
     .services-1 {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
 
     .general {
         flex-direction: column;
     }
 
-    .general-1 {
+    .general-1, .general-2, .general-3, .general-4, .general-5, .general-6 {
         width: 100%;
-        padding: 30px;
+        padding: 20px;
         text-align: center;
-        order: -1;
-    }
-
-    .general-2, .general-3, .general-4, .general-5, .general-6 {
-        width: 100%;
-        padding: 30px;
-        text-align: center;
-        height: 500px;
+        height: auto; /* Ajuste para pantallas pequeñas */
     }
 
     .blog {
-        padding: 30px;
+        padding: 20px;
     }
 
     .blog-content {
@@ -743,7 +740,7 @@ p{
     }
 
     .footer {
-        padding: 30px;
+        padding: 20px;
     }
 
     .footer-content {
@@ -751,6 +748,7 @@ p{
         text-align: center;
     }
 }
+
 
 
 
