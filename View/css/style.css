@@ -624,13 +624,6 @@ p{
         box-sizing: border-box;
     }
 
-    .video-container {
-        position: relative;
-        width: 100vw;
-        height: 100vh;
-        overflow: hidden; /* Evita que cualquier contenido adicional cause problemas */
-    }
-
     .container {
         margin: 0 auto;
         padding: 0;
@@ -772,13 +765,11 @@ p{
         box-sizing: border-box;
     }
 
-    .video-container {
-        position: relative;
-        width: 100vw;
-        height: 100vh;
-        overflow: hidden; /* Evita que cualquier contenido adicional cause problemas */
-        background-color: #000;
-        object-position: center center;
+    .video-background {
+        width: 100vw;  /* Asegura que el video ocupe todo el ancho */
+        height: 100vh; /* Asegura que el video ocupe toda la altura */
+        object-fit: cover; /* Mantiene la proporción del video cubriendo todo el área */
+        object-position: center center; /* Centra el video */
     }
 
     .container {
