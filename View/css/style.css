@@ -617,8 +617,15 @@ p{
 
 @media(max-width:401px) {
 
+    html, body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
     .container {
-        margin-left: 5px;
+        margin: 0 auto;
+        padding: 0;
     }
 
     .menu {
@@ -632,14 +639,14 @@ p{
 
     .menu .navbar {
         position: absolute;
-        top: 65%;
+        top: 0;
         left: 0;
         right: 0;
         background-color: #323337;
         display: none;
         z-index: 1;
-        width: 90%;
-        margin-left: 25px;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .menu .nabvar ul li {
@@ -685,7 +692,7 @@ p{
     }
 
     .coffee-img {
-        display: none; /* No se mostrara el elemento a menos de que se realize una accion determinada */
+        display: none; /* No se mostrara el elemento a menos de que se realice una acción determinada */
     }
 
     .services {
@@ -744,6 +751,7 @@ p{
         text-align: center;
     }
 }
+
 
 
 
