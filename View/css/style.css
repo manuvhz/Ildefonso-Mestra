@@ -639,7 +639,7 @@ p{
 
     .menu .navbar {
         position: absolute;
-        top: 0;
+        top: 80%;
         left: 0;
         right: 0;
         background-color: #323337;
@@ -666,7 +666,7 @@ p{
     } 
 
     .header-content {
-        padding: 100px 30px;
+        padding: 100px 10px;
         z-index: 0;
     }
 
