@@ -772,8 +772,11 @@ p{
         box-sizing: border-box;
     }
 
-    .video-background {
+    .video-container {
+        position: relative;
+        width: 100vw;
         height: 100vh;
+        overflow: hidden; /* Evita que cualquier contenido adicional cause problemas */
     }
 
     .container {
