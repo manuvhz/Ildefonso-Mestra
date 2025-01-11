@@ -624,7 +624,7 @@ p{
     }
 
     .video-background {
-        height: 0vh;
+        height: 100vh;
     }
 
     .container {
@@ -662,7 +662,7 @@ p{
     } 
 
     .header {
-        min-height: 0vh; /* Se usa para definir la altura mínima de un elemento */
+        min-height: 100vh; /* Se usa para definir la altura mínima de un elemento */
     }    
 
     .header h1 {
