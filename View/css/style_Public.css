@@ -666,3 +666,144 @@
  
      }
  }
+
+ @media(max-width:363px) {
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .video-background {
+        height: 100vh;
+    }
+
+    .container {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial; /* Valor en el que se iniciara, las propiedades*/
+        z-index: 1;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 80%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+        z-index: 1;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .menu .nabvar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar { /* Para poner el simbolo "~" es con alt + 126*/
+        display: initial;
+    } 
+
+    .header {
+        min-height: 0vh; /* Se usa para definir la altura mínima de un elemento */
+    }    
+
+    .header h1 {
+        margin: 45px 0;
+    } 
+
+    .header-content {
+        padding: 100px 10px;
+        z-index: 0;
+    }
+
+    .header-content p {
+        padding: 0;
+    }
+
+    .coffee {
+        padding: 30px;
+    }
+
+    .coffee-content h2 {
+        padding: 0;
+    }
+
+    .txt-p {
+        padding: 0;
+    }
+
+    .coffee-group {
+        flex-direction: column; /* Determina la dirección en que se ordenarán los elementos en el espacio */
+        margin-bottom: 0;
+    }
+
+    .coffee-img {
+        display: none; /* No se mostrara el elemento a menos de que se realice una acción determinada */
+    }
+
+    .services {
+        padding: 30px;
+    }
+
+    .services-content p {
+        padding: 0;
+    }
+
+    .services-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .services-1 {
+        margin-bottom: 25px;
+    }
+
+    .general {
+        flex-direction: column;
+    }
+
+    .general-1 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        order: -1;
+    }
+
+    .general-2, .general-3, .general-4, .general-5, .general-6 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        height: 500px;
+    }
+
+    .blog {
+        padding: 30px;
+    }
+
+    .blog-content {
+        flex-direction: column;
+    }
+
+    .blog-1 {
+        padding: 0;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
