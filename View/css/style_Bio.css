@@ -434,10 +434,6 @@ p{
         overflow-x: hidden;
     }
 
-    .video-background {
-        height: 100vh;
-    }
-
     .container {
         margin: 0 auto;
         padding: 0;
@@ -477,7 +473,7 @@ p{
     }
 
     .header h1 {
-        font-size: 60px;
+        font-size: 50px;
         margin: 45px 0;
     }
 
@@ -576,10 +572,6 @@ p{
         overflow-x: hidden;
     }
 
-    .video-background {
-        height: 100vh;
-    }
-
     .container {
         margin: 0 auto;
         padding: 0;
@@ -619,8 +611,12 @@ p{
     }
 
     .header h1 {
-        font-size: 60px;
+        font-size: 50px;
         margin: 45px 0;
+    }
+
+    .biography-content h2{
+        font-size: 40px; 
     }
 
     .header-content {
