@@ -624,11 +624,22 @@ p{
         box-sizing: border-box;
     }
 
+    .video-container {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+    
     .video-background {
-        width: 100vw;  /* Asegura que el video ocupe todo el ancho */
-        height: 100vh; /* Asegura que el video ocupe toda la altura */
-        object-fit: cover; /* Mantiene la proporción del video cubriendo todo el área */
-        object-position: center center; /* Centra el video */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+        pointer-events: none;
     }
 
     .container {
@@ -772,11 +783,22 @@ p{
         box-sizing: border-box;
     }
 
+    .video-container {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+    
     .video-background {
-        width: 100vw;  /* Asegura que el video ocupe todo el ancho */
-        height: 100vh; /* Asegura que el video ocupe toda la altura */
-        object-fit: cover; /* Mantiene la proporción del video cubriendo todo el área */
-        object-position: center center; /* Centra el video */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+        pointer-events: none;
     }
 
     .container {
