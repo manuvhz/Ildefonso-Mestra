@@ -485,23 +485,18 @@ p{
 
 /* Parte responsive de la pagina */
 
-@media(max-width:357px){
+@media(max-width:991px) {
 
-    .menu{
-
+    .menu {
         padding: 30px;
-
     }
 
-    .menu label{
-
+    .menu label {
         display: initial; /* Valor en el que se iniciara, las propiedades*/
         z-index: 1;
-
     }
 
-    .menu .navbar{
-
+    .menu .navbar {
         position: absolute;
         top: 65%;
         left: 0;
@@ -513,152 +508,126 @@ p{
         margin-left: 25px;
     }
 
-    .menu .nabvar ul li{
-
+    .menu .nabvar ul li {
         width: 100%;
-
     }
 
-    #menu:checked ~ .navbar{ /* Para poner el simbolo "~" es con alt + 126*/
-
+    #menu:checked ~ .navbar { /* Para poner el simbolo "~" es con alt + 126*/
         display: initial;
-        
     } 
-    
-    .header{
 
+    .header {
         min-height: 0vh; /* Se usa para definir la altura mínima de un elemento */
-
     }    
 
-    .header h1{
-
+    .header h1 {
         margin: 45px 0;
-
     } 
 
-    .header-content{
-
+    .header-content {
         padding: 100px 30px;
         z-index: 0;
-
     }
 
-    .header-content p{
- 
+    .header-content p {
         padding: 0;
-
     }
 
-    .coffee{
-
+    .coffee {
         padding: 30px;
-
     }
 
-    .coffee-content h2{
-
+    .coffee-content h2 {
         padding: 0;
-
     }
 
-    .txt-p{
-
+    .txt-p {
         padding: 0;
-
     }
 
-    .coffee-group{
-
+    .coffee-group {
         flex-direction: column; /* Determina la dirección en que se ordenarán los elementos en el espacio */
         margin-bottom: 0;
-
     }
 
-    .coffee-img{
-
+    .coffee-img {
         display: none; /* No se mostrara el elemento a menos de que se realize una accion determinada */
-
     }
 
-    .services{
-
+    .services {
         padding: 30px;
-
     }
 
-    .services-content p{
-
+    .services-content p {
         padding: 0;
-
     }
 
-    .services-group{
-
+    .services-group {
         flex-direction: column;
         margin-bottom: 0;
-
     }
 
-    .services-1{
-
+    .services-1 {
         margin-bottom: 25px;
-
     }
 
-    .general{
-
+    .general {
         flex-direction: column;
-
     }
 
-    .general-1{
-
+    .general-1 {
         width: 100%;
         padding: 30px;
         text-align: center;
         order: -1;
-
     }
 
-    .general-2, .general-3, .general-4, .general-5, .general-6{
-
+    .general-2, .general-3, .general-4, .general-5, .general-6 {
         width: 100%;
         padding: 30px;
         text-align: center;
         height: 500px;
-
     }
 
-    .blog{
-
+    .blog {
         padding: 30px;
-
     }
 
-    .blog-content{
-
+    .blog-content {
         flex-direction: column;
-
     }
 
-    .blog-1{
-
+    .blog-1 {
         padding: 0;
-
     }
 
-    .footer{
-
+    .footer {
         padding: 30px;
-
     }
 
-    .footer-content{
-
+    .footer-content {
         flex-direction: column;
         text-align: center;
-
     }
 }
+
+@media(max-width:357px) {
+    .menu {
+        padding: 20px;
+    }
+
+    .menu .navbar {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .header-content {
+        padding: 70px 20px;
+    }
+
+    .general-2, .general-3, .general-4, .general-5, .general-6 {
+        height: 400px;
+    }
+}
+
 
