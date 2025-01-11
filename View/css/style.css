@@ -628,10 +628,6 @@ p{
         padding: 0;
     }
 
-    .menu {
-        padding: 30px;
-    }
-
     .menu label {
         display: initial; /* Valor en el que se iniciara, las propiedades*/
         z-index: 1;
@@ -666,7 +662,7 @@ p{
     } 
 
     .header-content {
-        padding: 0 10px;
+        padding: 100px 10px;
         z-index: 0;
     }
 
