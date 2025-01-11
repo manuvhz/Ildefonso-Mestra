@@ -564,7 +564,7 @@ p{
     }
 }
 
-@media(max-width: 370px) {
+@media(max-width:473px) {
     html, body {
         margin: 0;
         padding: 0;
