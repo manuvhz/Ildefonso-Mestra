@@ -624,7 +624,7 @@ p{
     }
 
     .video-background {
-        height: 200vh;
+        height: 0vh;
     }
 
     .container {
