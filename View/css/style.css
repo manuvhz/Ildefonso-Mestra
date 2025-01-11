@@ -628,14 +628,6 @@ p{
         padding: 0;
     }
 
-    .video-background {
-        height: 100vh; /* Asegúrate de que el video ocupe toda la altura de la pantalla */
-        top: 0; /* Alinea el video con la parte superior */
-        left: 0; /* Alinea el video con la parte izquierda */
-        width: 100vw; /* Asegura que el video ocupe todo el ancho */
-        object-fit: cover; /* Mantén el video cubriendo toda el área */
-    }
-
     .menu {
         padding: 30px;
     }
