@@ -629,7 +629,7 @@ p{
     }
 
     .menu {
-        padding: 10px;
+        padding: 30px;
     }
 
     .menu label {
@@ -666,7 +666,7 @@ p{
     } 
 
     .header-content {
-        padding: 0 10px;
+        padding: 100px 10px;
         z-index: 0;
     }
 
