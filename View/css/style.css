@@ -624,15 +624,11 @@ p{
         box-sizing: border-box;
     }
 
-    .video-background {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100vw; /* Asegura que ocupe todo el ancho de la pantalla */
-        height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
-        object-fit: cover; /* Mantén el video cubriendo toda el área */
-        z-index: -1;
-        pointer-events: none;
+    .video-container {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden; /* Evita que cualquier contenido adicional cause problemas */
     }
 
     .container {
