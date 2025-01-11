@@ -629,20 +629,8 @@ p{
 }
 
 .link img{
-    width: 25px;
+    width: 45px;
     cursor: pointer;
-}
-
-.social-container {
-    display: flex;
-    flex-direction: row; /* Alinea los íconos de redes sociales horizontalmente */
-    justify-content: center; /* Centra los íconos horizontalmente */
-    align-items: center; /* Centra verticalmente los íconos */
-    gap: 20px; /* Espacio entre los íconos */
-}
-
-#log-foo{
-    width: 200px;
 }
 
 /* Parte responsive de la pagina */
