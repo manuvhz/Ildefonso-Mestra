@@ -777,6 +777,8 @@ p{
         width: 100vw;
         height: 100vh;
         overflow: hidden; /* Evita que cualquier contenido adicional cause problemas */
+        background-color: #000;
+        object-position: center center;
     }
 
     .container {
