@@ -658,7 +658,7 @@ p{
     } 
 
     .header {
-        min-height: 100vh; /* Se usa para definir la altura mínima de un elemento */
+        min-height: 0vh; /* Se usa para definir la altura mínima de un elemento */
     }    
 
     .header h1 {
