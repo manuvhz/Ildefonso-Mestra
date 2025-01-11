@@ -485,7 +485,7 @@ p{
 
 /* Parte responsive de la pagina */
 
-@media(max-width:900px) {
+@media(max-width:1040px) {
 
     .container {
         margin-left: 5px;
