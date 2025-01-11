@@ -623,9 +623,17 @@ p{
         box-sizing: border-box;
     }
 
+    .video-background {
+        height: 100vh;
+    }
+
     .container {
         margin: 0 auto;
         padding: 0;
+    }
+
+    .menu {
+        padding: 30px;
     }
 
     .menu label {
