@@ -383,8 +383,165 @@
      width: 50%;
  
  }
- 
 
+ .general-6 {
+    background-image: 
+        url('../images/pictures/events/five.png'),
+        url('../images/pictures/events/six.png'),
+        url('../images/pictures/events/seven.png'),
+        url('../images/pictures/events/eight.png');
+    background-position: 
+        left top, 
+        right top, 
+        left bottom, 
+        right bottom;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    width: 50%; 
+    height: 100%; /* Si no se aplica dentro de un contenedor padre, usa un valor fijo o relativo */
+    min-height: 750px; /* Asegura que siempre tenga al menos 400px de alto */
+}
+
+
+.general-7{
+ 
+    background-image: 
+        url('../images/pictures/events/nine.png'),
+        url('../images/pictures/events/teen.png'),
+        url('../images/pictures/events/eleven.png'),
+        url('../images/pictures/events/twelve.png');
+    background-position: 
+        left top, 
+        right top, 
+        left bottom, 
+        right bottom;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    width: 50%; 
+    height: 100%; /* Si no se aplica dentro de un contenedor padre, usa un valor fijo o relativo */
+    min-height: 750px; /* Asegura que siempre tenga al menos 400px de alto */
+
+}
+
+.general-8{
+ 
+    background-image: 
+        url('../images/pictures/events/thirteen.png'),
+        url('../images/pictures/events/fourteen.png'),
+        url('../images/pictures/events/fiveteen.png'),
+        url('../images/pictures/events/sixteen.png');
+    background-position: 
+        left top, 
+        right top, 
+        left bottom, 
+        right bottom;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    width: 50%; 
+    height: 100%; /* Si no se aplica dentro de un contenedor padre, usa un valor fijo o relativo */
+    min-height: 790px; /* Asegura que siempre tenga al menos 400px de alto */
+
+}
+
+.general-9{
+ 
+    background-image: 
+        url('../images/pictures/events/seventeen.png'),
+        url('../images/pictures/events/eighteen.png'),
+        url('../images/pictures/events/nineteen.png'),
+        url('../images/pictures/events/tweny.png');
+    background-position: 
+        left top, 
+        right top, 
+        left bottom, 
+        right bottom;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    width: 50%; 
+    height: 100%; /* Si no se aplica dentro de un contenedor padre, usa un valor fijo o relativo */
+    min-height: 750px; /* Asegura que siempre tenga al menos 400px de alto */
+
+}
+
+.general-10{
+ 
+    background-image: 
+        url('../images/pictures/events/twenyone.png'),
+        url('../images/pictures/events/twenytwo.png'),
+        url('../images/pictures/events/twenythree.png'),
+        url('../images/pictures/events/twenyfour.png');
+    background-position: 
+        left top, 
+        right top, 
+        left bottom, 
+        right bottom;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    width: 50%; 
+    height: 100%; /* Si no se aplica dentro de un contenedor padre, usa un valor fijo o relativo */
+    min-height: 750px; /* Asegura que siempre tenga al menos 400px de alto */
+
+}
+
+.general-11{
+ 
+    background-image: 
+        url('../images/pictures/events/twenyfive.png'),
+        url('../images/pictures/events/twenysix.png'),
+        url('../images/pictures/events/twenyseven.png'),
+        url('../images/pictures/events/twenyeight.png');
+    background-position: 
+        left top, 
+        right top, 
+        left bottom, 
+        right bottom;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    width: 50%; 
+    height: 100%; /* Si no se aplica dentro de un contenedor padre, usa un valor fijo o relativo */
+    min-height: 750px; /* Asegura que siempre tenga al menos 400px de alto */
+
+}
+
+.general-12{
+ 
+    background-image: 
+        url('../images/pictures/events/twenynine.png'),
+        url('../images/pictures/events/thirty.png'),
+        url('../images/pictures/events/thirtyone.png'),
+        url('../images/pictures/events/thirtytwo.png');
+    background-position: 
+        left top, 
+        right top, 
+        left bottom, 
+        right bottom;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    width: 50%; 
+    height: 100%; /* Si no se aplica dentro de un contenedor padre, usa un valor fijo o relativo */
+    min-height: 750px; /* Asegura que siempre tenga al menos 400px de alto */
+
+}
+
+.general-13{
+ 
+    background-image: 
+        url('../images/pictures/events/thirtythree.png'),
+        url('../images/pictures/events/thirtyfour.png'),
+        url('../images/pictures/events/thirtyfive.png'),
+        url('../images/pictures/events/thirtysix.png');
+    background-position: 
+        left top, 
+        right top, 
+        left bottom, 
+        right bottom;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    width: 50%; 
+    height: 100%; /* Si no se aplica dentro de un contenedor padre, usa un valor fijo o relativo */
+    min-height: 750px; /* Asegura que siempre tenga al menos 400px de alto */
+
+}
  
  h2{
  
