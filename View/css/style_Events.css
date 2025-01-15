@@ -503,13 +503,46 @@
 
 }
 
-.general-12{
+.general-12 {
+    background-image: 
+        url('../images/pictures/events/twenynine.png'), /* Imagen que ocupa toda la izquierda */
+        url('../images/pictures/events/thirty.png'),    /* Imagen superior derecha */
+        url('../images/pictures/events/thirtyone.png'); /* Imagen inferior derecha */
+    background-position: 
+        left top, 
+        right top, 
+        right bottom;
+    background-repeat: no-repeat;
+    background-size: 50% 100%, 50% 50%, 50% 50%; /* Tamaños ajustados para las tres imágenes */
+    width: 50%; 
+    height: 100%;
+    min-height: 750px;
+}
+
+
+.general-13 {
+
+    background-image: 
+        url('../images/pictures/events/thirtythree.png'),
+        url('../images/pictures/events/thirtyfour.png');
+    background-position: 
+        left top, 
+        right top;
+    background-repeat: no-repeat;
+    background-size: 50% 100%; /* 50% ancho y 100% alto para cada imagen */
+    width: 50%; 
+    height: 100%; /* Ajusta según tus necesidades */
+    min-height: 750px; /* Mantiene un mínimo de 750px de alto */
+    
+}
+
+.general-14{
  
     background-image: 
-        url('../images/pictures/events/twenynine.png'),
-        url('../images/pictures/events/thirty.png'),
-        url('../images/pictures/events/thirtyone.png'),
-        url('../images/pictures/events/thirtytwo.png');
+        url('../images/pictures/events/thirtyfive.png'),
+        url('../images/pictures/events/thirtysix.png'),
+        url('../images/pictures/events/thirtyseven.png'),
+        url('../images/pictures/events/thirtyeight.png');
     background-position: 
         left top, 
         right top, 
@@ -523,13 +556,111 @@
 
 }
 
-.general-13{
+.general-15{
+ 
+    background-image:  url(../images/pictures/events/thirtynine.png); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-16{
+ 
+    background-image:  url(../images/pictures/events/forty.png); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%; 
+    min-height: 700px; 
+
+}
+
+.general-17{
  
     background-image: 
-        url('../images/pictures/events/thirtythree.png'),
-        url('../images/pictures/events/thirtyfour.png'),
-        url('../images/pictures/events/thirtyfive.png'),
-        url('../images/pictures/events/thirtysix.png');
+        url('../images/pictures/events/fortyone.png'),
+        url('../images/pictures/events/fortytwo.png');
+    background-position: 
+        left top, 
+        right top;
+    background-repeat: no-repeat;
+    background-size: 50% 100%; /* 50% ancho y 100% alto para cada imagen */
+    width: 50%; 
+    height: 100%; /* Ajusta según tus necesidades */
+    min-height: 750px; /* Mantiene un mínimo de 750px de alto */
+
+}
+
+.general-18{
+ 
+    background-image: 
+        url('../images/pictures/events/fortythree.png'),
+        url('../images/pictures/events/fortyfour.png');
+    background-position: 
+        left top, 
+        right top;
+    background-repeat: no-repeat;
+    background-size: 50% 100%; /* 50% ancho y 100% alto para cada imagen */
+    width: 50%; 
+    height: 100%; /* Ajusta según tus necesidades */
+    min-height: 750px; /* Mantiene un mínimo de 750px de alto */
+
+}
+
+.general-19{
+ 
+    background-image:  url(../images/pictures/events/fortyfive.png); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%; 
+    min-height: 1300px; 
+
+}
+
+.general-20{
+ 
+    background-image: 
+        url('../images/pictures/events/fortysix.png'),
+        url('../images/pictures/events/fortyseven.png');
+    background-position: 
+        left top, 
+        right top;
+    background-repeat: no-repeat;
+    background-size: 50% 100%; /* 50% ancho y 100% alto para cada imagen */
+    width: 50%; 
+    height: 100%; /* Ajusta según tus necesidades */
+    min-height: 750px; /* Mantiene un mínimo de 750px de alto */
+
+}
+
+.general-21{
+ 
+    background-image: 
+        url('../images/pictures/events/fortyeight.png'),
+        url('../images/pictures/events/fortynine.png');
+    background-position: 
+        left top, 
+        right top;
+    background-repeat: no-repeat;
+    background-size: 50% 100%; /* 50% ancho y 100% alto para cada imagen */
+    width: 50%; 
+    height: 100%; /* Ajusta según tus necesidades */
+    min-height: 900px; /* Mantiene un mínimo de 750px de alto */
+
+}
+
+.general-22{
+ 
+    background-image: 
+        url('../images/pictures/events/fivety.png'),
+        url('../images/pictures/events/fivetyone.png'),
+        url('../images/pictures/events/fivetytwo.png'),
+        url('../images/pictures/events/fivetythree.png');
     background-position: 
         left top, 
         right top, 
