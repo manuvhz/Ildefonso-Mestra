@@ -1,0 +1,1109 @@
+ /* Importar fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* Reiniciar el CSS */
+*{ 
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
+}
+
+.container{
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+        url(../images/pictures/five.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.video-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 110vh;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    pointer-events: none;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55); /* Ajusta la opacidad: 0.5 para semi-oscuro */
+}
+
+.up{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 5px;
+}
+
+.up button{
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.up img{
+    width: 65px;
+}
+
+.menu{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+
+.logo img{
+
+    width: 110px;
+    position: relative;
+    top: 10px;
+
+}
+
+.menu .navbar ul li{
+
+    position: relative;
+    float: left;
+
+}
+
+.menu .navbar ul li a{
+
+    font-size: 18px;
+    padding: 20px; /* Crea un espacio al rededor del elemento o a la direccion asignada*/
+    color: #FFFDFC;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+
+    color: #26c000;
+    
+}
+
+#menu{
+
+    display: none;
+
+}
+
+.menu-icon{
+
+    width: 25px;
+
+}
+
+.menu label{
+
+    cursor: pointer;
+    display: none;
+
+}
+
+.header-content{
+
+    text-align: center;
+    z-index: 1;
+
+}
+
+.header-content h1{
+
+    font-size: 45px;
+    line-height: 80px; /* Atura de la fuente */
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+
+}
+
+.header-content p{
+
+    font-size: 16px;
+    color: #c7c7c7;
+    padding: 0 250px;
+    margin-bottom: 25px;
+
+}
+
+.btn-1{
+
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #26c000;
+    color: #F9FAFC;
+    text-transform: uppercase;
+
+}
+
+.btn-1:hover{
+
+    background-color: #2bd301;
+
+}
+
+.coffee{
+
+    padding: 100px 0;
+    background-color: #E1E2E6;
+    position: relative;
+
+
+}
+
+.coffee-content{
+
+    text-align: center;
+
+}
+
+.coffee-content h2{
+
+    font-size: 56px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+
+}
+
+.txt-p{
+
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+
+}
+
+.coffee-group{
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.coffee-1{
+
+    padding: 0 25px;
+    margin-top: 15px;    
+
+}
+
+.coffee-1 img{
+
+    width: 200px;
+
+}
+
+.coffee-img{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.coffee-1 h3{
+
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+.coffee-1 p{
+
+    margin-bottom: 10px;
+
+}
+
+.services{
+
+    background-image: linear-gradient( /* Agregar imagen y oscurecerla */
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(../images/bg2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Hace que la imagen se mueva con el movimiento del sube y baja de la web */
+    padding: 100px 0;
+
+}
+
+.services-content{
+
+    text-align: center;
+
+}
+
+.services-content h2{
+
+    font-size: 55px;
+    line-height: 50px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+
+}
+
+.services-content p{
+
+    font-size: 16px;
+    color: #C5C5C5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+
+}
+
+.services-group{
+
+    display: flex;
+    justify-content: space-between; /* Sirve para dejar un espaciado entre los items */
+    margin-bottom: 50px;
+    cursor: pointer;
+
+}
+
+.services-1{
+
+    padding: 0 100px;
+
+}
+
+.services-1 img{
+
+    width: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+
+.services-1 h3{
+
+    color: #EACCB3;
+    font-size: 18px;
+
+}
+
+.general{
+
+    display: flex;
+
+}
+
+.general-1{
+
+    width: 50%;
+    padding: 100px 250px 100px 100px; /* Arriba - Derecha - Abajo - Izquierda*/
+    background-color: #E1E2E6;
+
+}
+
+.general-2{
+
+    background-image:  url(../images/pictures/five.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-3{
+
+    background-image:  url(../images/pictures/six.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-4{
+
+    background-image:  url(../images/pictures/seven.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-5{
+
+    background-image:  url(../images/pictures/eight.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-6{
+
+    background-image:  url(../images/pictures/nine.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-7{
+
+    background-image:  url(../images/pictures/teen.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-8{
+
+    background-image:  url(../images/pictures/twelve.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-9{
+
+    background-image:  url(../images/pictures/eleven.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-10{
+
+    background-image:  url(../images/pictures/thirteen.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-11{
+
+    background-image:  url(../images/pictures/fourteen.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-12{
+
+    background-image:  url(../images/pictures/fiveteen.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-13{
+
+    background-image:  url(../images/pictures/sixteen.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-14{
+
+    background-image:  url(../images/pictures/seventeen.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-15{
+
+    background-image:  url(../images/pictures/eighteen.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-16{
+
+    background-image:  url(../images/pictures/nineteen.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-17{
+
+    background-image:  url(../images/pictures/tweny.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-18{
+
+    background-image:  url(../images/pictures/twenyone.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-19{
+
+    background-image:  url(../images/pictures/twenytwo.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-20{
+
+    background-image:  url(../images/pictures/twenythree.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-21{
+
+    background-image:  url(../images/pictures/eight.jpg); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+h2{
+
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+p{
+
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+
+}
+
+.blog{
+
+    padding: 100px 0;
+    text-align: center;
+    
+}
+
+.blog-content{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.blog-1{
+
+    padding: 15px 55px;
+       
+}
+
+.blog-1 img{
+
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+
+}
+
+.blog-1 h3{
+
+    font-size: 25px;
+    color: #323337;
+
+}
+
+.footer{
+
+    padding: 100px 0;
+    background-color: #000;
+
+}
+
+.footer-content{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.link h3{
+
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 15px;
+
+}
+
+.link a{
+
+    font-size: 16px;
+    color: #C5C5C5;
+    display: block;
+    margin-bottom: 15px;
+
+}
+
+.link img{
+    width: 25px;
+    cursor: pointer;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: row; /* Alinea los íconos de redes sociales horizontalmente */
+    justify-content: center; /* Centra los íconos horizontalmente */
+    align-items: center; /* Centra verticalmente los íconos */
+    gap: 20px; /* Espacio entre los íconos */
+}
+
+#log-foo{
+    width: 200px;
+}
+
+/* Parte responsive de la pagina */
+
+@media(max-width:991px){
+
+    .menu{
+
+        padding: 30px;
+
+    }
+
+    .menu label{
+
+        display: initial; /* Valor en el que se iniciara, las propiedades*/
+        z-index: 1;
+
+    }
+
+    .menu .navbar{
+
+        position: absolute;
+        top: 65%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+        z-index: 1;
+        width: 90%;
+        margin-left: 25px;
+    }
+
+    .menu .nabvar ul li{
+
+        width: 100%;
+
+    }
+
+    #menu:checked ~ .navbar{ /* Para poner el simbolo "~" es con alt + 126*/
+
+        display: initial;
+        
+    } 
+    
+    .header{
+
+        min-height: 0vh; /* Se usa para definir la altura mínima de un elemento */
+
+    }
+
+    .header h1{
+
+        margin: 45px 0;
+
+    } 
+
+    .header-content{
+
+        padding: 100px 30px;
+        z-index: 0;
+
+    }
+
+    .header-content p{
+ 
+        padding: 0;
+
+    }
+
+    .coffee{
+
+        padding: 30px;
+
+    }
+
+    .coffee-content h2{
+
+        padding: 0;
+
+    }
+
+    .txt-p{
+
+        padding: 0;
+
+    }
+
+    .coffee-group{
+
+        flex-direction: column; /* Determina la dirección en que se ordenarán los elementos en el espacio */
+        margin-bottom: 0;
+
+    }
+
+    .coffee-img{
+
+        display: none; /* No se mostrara el elemento a menos de que se realize una accion determinada */
+
+    }
+
+    .services{
+
+        padding: 30px;
+
+    }
+
+    .services-content p{
+
+        padding: 0;
+
+    }
+
+    .services-group{
+
+        flex-direction: column;
+        margin-bottom: 0;
+
+    }
+
+    .services-1{
+
+        margin-bottom: 25px;
+
+    }
+
+    .general{
+
+        flex-direction: column;
+
+    }
+
+    .general-1{
+
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        order: -1;
+
+    }
+
+    .general-2, .general-3, .general-4, .general-5, .general-6, .general-7, .general-8, .general-9, .general-10, .general-11, .general-12, .general-13, .general-14, .general-15, .general-16, .general-17, .general-18, .general-19, .general-20{
+
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        height: 500px;
+
+    }
+
+    .blog{
+
+        padding: 30px;
+
+    }
+
+    .blog-content{
+
+        flex-direction: column;
+
+    }
+
+    .blog-1{
+
+        padding: 0;
+
+    }
+
+    .footer{
+
+        padding: 30px;
+
+    }
+
+    .footer-content{
+
+        flex-direction: column;
+        text-align: center;
+
+    }
+}
+
+@media(max-width:363px) {
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .container {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial; /* Valor en el que se iniciara, las propiedades*/
+        z-index: 1;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 80%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+        z-index: 1;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .menu .nabvar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar { /* Para poner el simbolo "~" es con alt + 126*/
+        display: initial;
+    } 
+
+    .header {
+        min-height: 0vh; /* Se usa para definir la altura mínima de un elemento */
+    }  
+    
+    h2{
+        font-size: 35px;
+    }
+
+    .header h1 {
+        margin: 45px 0;
+    } 
+
+    .header-content {
+        padding: 100px 10px;
+        z-index: 0;
+    }
+
+    .header-content p {
+        padding: 0;
+    }
+
+    .coffee {
+        padding: 30px;
+    }
+
+    .coffee-content h2 {
+        padding: 0;
+    }
+
+    .txt-p {
+        padding: 0;
+    }
+
+    .coffee-group {
+        flex-direction: column; /* Determina la dirección en que se ordenarán los elementos en el espacio */
+        margin-bottom: 0;
+    }
+
+    .coffee-img {
+        display: none; /* No se mostrara el elemento a menos de que se realice una acción determinada */
+    }
+
+    .services {
+        padding: 30px;
+    }
+
+    .services-content p {
+        padding: 0;
+    }
+
+    .services-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .services-1 {
+        margin-bottom: 25px;
+    }
+
+    .general {
+        flex-direction: column;
+    }
+
+    .general-1 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        order: -1;
+    }
+
+    .general-2, .general-3, .general-4, .general-5, .general-6 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        height: 500px;
+    }
+
+    .blog {
+        padding: 30px;
+    }
+
+    .blog-content {
+        flex-direction: column;
+    }
+
+    .blog-1 {
+        padding: 0;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media(max-width:473px) {
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .container {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial; /* Valor en el que se iniciara, las propiedades*/
+        z-index: 1;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 80%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+        z-index: 1;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .menu .nabvar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar { /* Para poner el simbolo "~" es con alt + 126*/
+        display: initial;
+    } 
+
+    .header {
+        min-height: 0vh; /* Se usa para definir la altura mínima de un elemento */
+    }  
+    
+    h2{
+        font-size: 35px;
+    }
+
+    .header h1 {
+        margin: 45px 0;
+    } 
+
+    .header-content {
+        padding: 100px 10px;
+        z-index: 0;
+    }
+
+    .header-content p {
+        padding: 0;
+    }
+
+    .coffee {
+        padding: 30px;
+    }
+
+    .coffee-content h2 {
+        padding: 0;
+    }
+
+    .txt-p {
+        padding: 0;
+    }
+
+    .coffee-group {
+        flex-direction: column; /* Determina la dirección en que se ordenarán los elementos en el espacio */
+        margin-bottom: 0;
+    }
+
+    .coffee-img {
+        display: none; /* No se mostrara el elemento a menos de que se realice una acción determinada */
+    }
+
+    .services {
+        padding: 30px;
+    }
+
+    .services-content p {
+        padding: 0;
+    }
+
+    .services-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .services-1 {
+        margin-bottom: 25px;
+    }
+
+    .general {
+        flex-direction: column;
+    }
+
+    .general-1 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        order: -1;
+    }
+
+    .general-2, .general-3, .general-4, .general-5, .general-6 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        height: 500px;
+    }
+
+    .blog {
+        padding: 30px;
+    }
+
+    .blog-content {
+        flex-direction: column;
+    }
+
+    .blog-1 {
+        padding: 0;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
