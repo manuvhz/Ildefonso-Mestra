@@ -439,7 +439,7 @@
     background-size: 50% 50%;
     width: 50%; 
     height: 100%; /* Si no se aplica dentro de un contenedor padre, usa un valor fijo o relativo */
-    min-height: 790px; /* Asegura que siempre tenga al menos 400px de alto */
+    min-height: 820px; /* Asegura que siempre tenga al menos 400px de alto */
 
 }
 
@@ -532,8 +532,13 @@
     background-size: 50% 100%; /* 50% ancho y 100% alto para cada imagen */
     width: 50%; 
     height: 100%; /* Ajusta según tus necesidades */
-    min-height: 750px; /* Mantiene un mínimo de 750px de alto */
+    min-height: 550px; /* Mantiene un mínimo de 750px de alto */
     
+}
+
+#thirteen{
+    height: 100%; /* Ajusta según tus necesidades */
+    min-height: 550px; /* Mantiene un mínimo de 750px de alto */
 }
 
 .general-14{
@@ -590,7 +595,7 @@
     background-size: 50% 100%; /* 50% ancho y 100% alto para cada imagen */
     width: 50%; 
     height: 100%; /* Ajusta según tus necesidades */
-    min-height: 750px; /* Mantiene un mínimo de 750px de alto */
+    min-height: 550px; /* Mantiene un mínimo de 750px de alto */
 
 }
 
@@ -606,7 +611,7 @@
     background-size: 50% 100%; /* 50% ancho y 100% alto para cada imagen */
     width: 50%; 
     height: 100%; /* Ajusta según tus necesidades */
-    min-height: 750px; /* Mantiene un mínimo de 750px de alto */
+    min-height: 560px; /* Mantiene un mínimo de 750px de alto */
 
 }
 
@@ -634,8 +639,17 @@
     background-size: 50% 100%; /* 50% ancho y 100% alto para cada imagen */
     width: 50%; 
     height: 100%; /* Ajusta según tus necesidades */
-    min-height: 750px; /* Mantiene un mínimo de 750px de alto */
+    min-height: 550px; /* Mantiene un mínimo de 750px de alto */
 
+}
+
+#tweny{
+    height: 100%; /* Ajusta según tus necesidades */
+    min-height: 550px; /* Mantiene un mínimo de 750px de alto */
+}
+
+#parra{
+    font-size: 36px;
 }
 
 .general-21{
@@ -650,8 +664,13 @@
     background-size: 50% 100%; /* 50% ancho y 100% alto para cada imagen */
     width: 50%; 
     height: 100%; /* Ajusta según tus necesidades */
-    min-height: 900px; /* Mantiene un mínimo de 750px de alto */
+    min-height: 665px; /* Mantiene un mínimo de 750px de alto */
 
+}
+
+#twenyone{
+    height: 100%; /* Ajusta según tus necesidades */
+    min-height: 550px; /* Mantiene un mínimo de 750px de alto */
 }
 
 .general-22{
