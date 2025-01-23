@@ -376,15 +376,163 @@
  
  .general-5{
  
-     background-image:  url(../images/pictures/public/four.jpg); /* La url no se puede usar fuera de una accion */
+     background-image:  url(../images/pictures/public/newpro/ARBOLES/1.JPG); /* La url no se puede usar fuera de una accion */
      background-position: center center;
      background-repeat: no-repeat;
      background-size: cover;
      width: 50%;
  
  }
- 
 
+ .general-6{
+ 
+    background-image:  url(../images/pictures/public/newpro/ARBOLES/2.JPG); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-7{
+ 
+    background-image:  url(../images/pictures/public/newpro/ARBOLES/video.mp4); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-8{
+ 
+    background-image:  url(../images/pictures/public/newpro/TEJIDOS/1.JPG); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-9{
+ 
+    background-image:  url(../images/pictures/public/newpro/TEJIDOS/2.JPG); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-10{
+ 
+    background-image:  url(../images/pictures/public/newpro/TEJIDOS/3.JPG); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-11{
+ 
+    background-image:  url(../images/pictures/public/newpro/PAJARO/1.JPG); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-12{
+ 
+    background-image:  url(../images/pictures/public/newpro/PAJARO/2.JPG); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-13{
+ 
+    background-image:  url(../images/pictures/public/newpro/PAJARO/VIDEO.mp4); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-14{
+ 
+    background-image:  url(../images/pictures/public/newpro/BODEGON/1.JPG); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-15{
+ 
+    background-image:  url(../images/pictures/public/newpro/BODEGON/2.JPG); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-16{
+ 
+    background-image:  url(../images/pictures/public/newpro/BODEGON/3.png); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-17{
+ 
+    background-image:  url(../images/pictures/public/newpro/BODEGON/video.mp4); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-18{
+ 
+    background-image:  url(../images/pictures/public/newpro/MAIZ/1.JPG); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-19{
+ 
+    background-image:  url(../images/pictures/public/newpro/MAIZ/video1.mp4); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.general-19v{
+ 
+    background-image:  url(../images/pictures/public/newpro/MAIZ/video2.mp4); /* La url no se puede usar fuera de una accion */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
  
  h2{
  
