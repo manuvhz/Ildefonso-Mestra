@@ -756,7 +756,15 @@
         padding: 30px;
         text-align: center;
         height: 500px;
-    }   
+    }
+
+    .general-11 {
+        background-image: url(../images/pictures/public/newpro/PAJARO/1.JPG);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%; /* Esto hará que la imagen se estire para llenar todo el contenedor */
+        height: 500px; /* Controla la altura del contenedor */
+    }    
 
     .general-7 video, .general-13 video, .general-17 video, .general-19 video, .general-19v video {
         width: 500px;
@@ -908,7 +916,15 @@
         padding: 30px;
         text-align: center;
         height: 500px;
-    } 
+    }
+
+    .general-11 {
+        background-image: url(../images/pictures/public/newpro/PAJARO/1.JPG);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%; /* Esto hará que la imagen se estire para llenar todo el contenedor */
+        height: 500px; /* Controla la altura del contenedor */
+    }    
 
     .general-7 video, .general-13 video, .general-17 video, .general-19 video, .general-19v video {
         width: 500px;
@@ -1061,6 +1077,14 @@
         text-align: center;
         height: 500px;
     }
+
+    .general-11 {
+        background-image: url(../images/pictures/public/newpro/PAJARO/1.JPG);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%; /* Esto hará que la imagen se estire para llenar todo el contenedor */
+        height: 500px; /* Controla la altura del contenedor */
+    }    
 
     .general-7 video, .general-13 video, .general-17 video, .general-19 video, .general-19v video {
         width: 500px;
